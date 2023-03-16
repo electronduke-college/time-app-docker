@@ -44,9 +44,7 @@ services:
     ports:
       - 6603:3306
     networks:
-      - timeapp-brige-network
-    # volumes:
-    #   - ./api/src/utils/mysqlPool.mjs:/docker-entrypoint-initdb.d
+      - timeapp-brige-network    
 
 networks:
   timeapp-brige-network:
